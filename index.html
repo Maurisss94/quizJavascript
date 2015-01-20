@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta content="width=device-width, initial-scale=1" name="viewport">
+    <title>Drag and Drop</title>
+    <link href="/home/mauro/Escritorio/CFGS 2 DAW/Desenvolupament client/drag_drop/bootstrap-3.3.1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="style.css" rel="stylesheet">
+    
+</head>
+<body>
+   <div id="container">
+       <h1 class="text-center"><strong>Questionari amb Javascript</strong></h1>
+       <br>
+       <div class="col-md-offset-1"><h4>Quin es el llenguatge de programació més utilitzat ?</h4></div>
+       
+       <div id="opcions">
+           <ul class="col-md-offset-1 col-md-5 nav nav-pills nav-stacked" >
+               <li class="label label-info" id="opcio1" draggable="true"><h3>Java</h3></li>
+               <li class="label label-info" id="opcio2" draggable="true"><h3>JavaScript</h3></li>
+               <li class="label label-info" id="opcio3" draggable="true"><h3>Visual Basic</h3></li>
+               <li class="label label-info" id="opcio4" draggable="true"><h3>C++</h3></li>
+           </ul>
+          
+       </div>
+        <div class="col-md-5 nav nav-pills nav-stacked label-primary" id="solucio">
+           <h1 class="text-center">Arrastra la solucio AQUI</h1>
+       </div>
+   </div>
+   
+   <script src="a2-1-2.js"></script>
+</body>
+</html>
